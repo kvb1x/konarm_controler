@@ -46,5 +46,5 @@ python3 konarm/src/konarm_controler/src/Pilot_6_axis/keyboard_rc.py -i 127.0.0.1
 
 
 
-![RViz Teleoperation Demo](images/demo_rviz_2.gif)
+![RViz Teleoperation Demo](images/demo_rviz.gif)
 
