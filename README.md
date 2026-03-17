@@ -37,7 +37,7 @@ ros2 launch remote_6d remote_servo_control.launch.py
 
 
 ### Terminal 4: 6D Controller Simulator
-Runs the virtual keyboard controller that sends network packets to port 25000. You can switch between Konarm's Base reference frame and the Tool (end-effector) reference frame by pressing "1" on the keyboard).
+Runs the virtual keyboard controller that sends network packets to port 25000. You can switch between Konarm's Base reference frame and the Tool (end-effector) reference frame by pressing "1" on the keyboard.
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
@@ -45,6 +45,6 @@ python3 konarm/src/konarm_controler/src/Pilot_6_axis/keyboard_rc.py -i 127.0.0.1
 ```
 
 
-```markdown
-   ![RViz Teleoperation Demo](images/demo_rviz.webp)
-```
+
+![RViz Teleoperation Demo](images/demo_rviz.webp)
+
